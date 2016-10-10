@@ -1,0 +1,8 @@
+name = input("Hi there, what is your name?")
+print("hello",name)
+emotion = input("how are you?")
+print("i am glad you are",emotion)
+print("hey",name)
+travel = input("How did you get here today")
+time = input("how long did it take you to get here")
+print(time,"thats not too bad for you")
