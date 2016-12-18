@@ -1,0 +1,24 @@
+from collections import Counter
+
+sentence1 = input("Enter sentence 1 here:\t")
+sentence2 = input("Enter sentence 2 here:\t")
+
+sentence3 = []
+
+list1 = sentence1.split()
+list2 = sentence2.split()
+print(list1)
+print(list2)
+list3= list1+ list2
+print(list3)
+
+print(sorted(list1))
+print(sorted(list2))
+print(sorted(list3))
+
+print(len(list1))
+print(len(list2))
+print(len(list3))
+
+dictionary = dict(Counter(list3))
+print(dictionary)
